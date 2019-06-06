@@ -1,0 +1,28 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Hitting a weather api through node ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "npm run build && node dist/app.jsß"
+  },
+  "keywords": [
+    "Node",
+    "Api",
+    "html",
+    "sass"
+  ],
+  "author": "Nick Tsouaks",
+  "license": "ISC",
+  "bin": {
+    "weather": "./cli.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {}
+}
