@@ -12,26 +12,20 @@ This utility uses two api keys
 
 install instructions
 
-clone the repository and then run the command for either local or global installation
+clone the repository and then run the command
 ```javascript
-// local
 npm install
-// global
-npm install -g
 ```
 To get the weather run this from the command line
 ```javascript
 weather some city
-// example
-weather Los Angeles
 ```
 
 output
-``` diff
-+ Chicago, Illinois, United States
-+ Rain today, with high temperatures falling to 64°F tomorrow.
 
-- Special Weather Statement
-- =================
-- ...Dense Fog along the Lake Michigan Shore this Evening... Fog over Lake Michigan will continue to move onto shoreline - areas in Illinois this evening, resulting in periods of dense fog along the immediate shoreline. Fog will continue to  - spread inland, with briefly dense fog possible.
-```
+Chicago, Illinois, United States
+Rain today, with high temperatures falling to 64°F tomorrow.
+
+Special Weather Statement
+=================
+...Dense Fog along the Lake Michigan Shore this Evening... Fog over Lake Michigan will continue to move onto shoreline areas in Illinois this evening, resulting in periods of dense fog along the immediate shoreline. Fog will continue to spread inland, with briefly dense fog possible. The fog may gradually diminish from north to south by the early overnight hours. Be prepared for rapidly changing visibility near the shore through the remainder of this evening.
