@@ -10,13 +10,13 @@ This utility uses two api keys
     - link: https://www.mapbox.com/
     - purpose: converts a city name to it's coordinates ... Dark sky api will require it
 
-install instructions
+You will need to get api keys which are free from the above sources, and then create a .env file in the root of the project in order to use and build upon.
 
 clone the repository and then run the command
 ```javascript
 npm install
 ```
-Example of getting the weather in Chicago 
+Example of getting the weather in Chicago
 ```javascript
 weather Chicago
 ```
