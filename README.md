@@ -16,9 +16,9 @@ clone the repository and then run the command
 ```javascript
 npm install
 ```
-To get the weather run this from the command line
+Example of getting the weather in Chicago 
 ```javascript
-weather some city
+weather Chicago
 ```
 
 output
